@@ -1,0 +1,167 @@
+.navbar {
+    background-color: navy;
+    color: white;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    color: blue !important;
+}
+
+.dropdown-menu {
+    background-color: navy;
+}
+
+.profile-section {
+    margin-top: 80px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: blue;
+}
+
+.carousel-control-next-icon {
+    transform: scaleX(-1);
+}
+
+.car-wrapper {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.car-wrapper img {
+    /* max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; */
+    width: 180px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.car-wrapper .rating img {
+    width: 14px;
+    height: auto;
+}
+
+.car-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car-header h5 {
+    color: navy;
+}
+
+.rating {
+    display: inline-flex;
+    align-items: center;
+}
+
+.rating img {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail-item {
+    display: flex;
+    flex: 0 0 50%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.detail-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.detail-text {
+    margin: 0;
+    flex: 1;
+    color: navy;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: navy;
+}
+
+@media (max-width: 992px) {
+    .car-wrapper {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .car-wrapper {
+        padding: 10px;
+    }
+}
